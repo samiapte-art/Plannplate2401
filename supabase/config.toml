@@ -1,0 +1,10 @@
+# Supabase Edge Functions Configuration
+# https://supabase.com/docs/guides/functions/config
+
+[functions.openai-chat]
+# Disable built-in JWT verification - we handle auth ourselves in the function
+verify_jwt = false
+
+[functions.openai-transcribe]
+# Disable built-in JWT verification - we handle auth ourselves in the function
+verify_jwt = false
